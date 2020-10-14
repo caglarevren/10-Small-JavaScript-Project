@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card-header">
+            <ul>
+                <li><a href="#">All</a></li>
+                <li><a href="#">Photography</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Sculpture</a></li>
+            </ul>
+        </div>
+
+        <div class="card-body">
+            <button id="btnLeft" class="card-btn"><i class="fas fa-arrow-circle-left"></i></button>
+            <div class="card-slider" id="slider">
+                <div class="card">            
+                    <img src=https://images.unsplash.com/photo-1556165356-d84ef32f04cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"
+                            alt="image" class="card-img">                   
+                    <h4>Image 1</h4>
+                    <p>1st Jan 2020</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1517455612269-8377057c3b55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1373&q=80"
+                        alt="image" class="card-img">
+                    <h4>Image 2</h4>
+                    <p>2nd Feb 2020</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1571685330542-0da6a6a8edc2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                        alt="image" class="card-img">
+                    <h4>Image 3</h4>
+                    <p>3rd Mar 2020</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1602048377275-5914a8a2f855?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80"
+                        alt="image" class="card-img">
+                    <h4>Image 4</h4>
+                    <p>4th Apr 2020</p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1461353789837-8eb180f968d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+                        alt="image" class="card-img">
+                    <h4>Image 5</h4>
+                    <p>5th May 2020</p>
+                </div>
+            </div>
+            <button id="btnRight" class="card-btn"><i class="fas fa-arrow-circle-right"></i></button>        
+        </div>
+
+        <div class="card-footer">
+            <button class="footer-btn">View more</button>
+        </div>
+        
+    </div>
+</body>
+</html>
